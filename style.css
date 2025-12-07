@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --lead: #212121
+    --gold-finger: #F2BD12;
+    --eye-ball: #FFFDF7;
+    --hint-yellow: #FCF1CC;
+    --pure-white: #fff;
+}
+
+body {
+    background: var(--eye-ball);
+}
+
+/* BASIC STYLING */
+
+
+/* HEADER STYLING */
+
+
+/* SECTION STYLING */
+
+
+/* FOOTER STYLING */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
