@@ -11,7 +11,7 @@
 }
 
 :root {
-    --lead: #212121
+    --lead: #212121;
     --gold-finger: #F2BD12;
     --eye-ball: #FFFDF7;
     --hint-yellow: #FCF1CC;
@@ -24,8 +24,86 @@ body {
 
 /* BASIC STYLING */
 
+a {
+    font-size: 1.2rem;
+    color: var(--lead);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+.between {
+    justify-content: space-between;
+}
+
+.gap-2 {
+    gap: 2rem;
+}
+
+.gap-3 {
+    gap: 3rem;
+}
+
+.wrapper {
+    max-width: 1400px;
+    margin: auto;
+    padding-inline: 1.5rem;
+}
+
 
 /* HEADER STYLING */
+
+.navbar{
+    min-height: 10vh;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--gold-finger);
+}
+
+.btn {
+    display: inline-block;
+    padding: .9rem 2rem;
+    background: var(--gold-finger);
+    border-radius: 1rem;
+    font-size: 1.1rem;
+    color: var(--pure-white);
+    box-shadow: rgba(0, 0, 0, 0.25) 0 2px 1px;
+    transition:  .2s ease-in-out;
+}
+
+.btn:hover{
+    background: var(--lead);
+}
+
+.cart-icon {
+    
+    font-size: 1.3rem;
+    position: relative;
+}
+
+.cart-icon .cart-value {
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    font-size: .85rem;
+    width: 20px;
+    aspect-ratio: 1;
+    border-radius: 100vw;
+    background: var(--gold-finger);
+    color: var(--lead);
+    text-align: center;
+    line-height: 20px;
+}
+
+.desktop-action .hamburger {
+    font-size: 1.5rem;
+    display: none;
+}
+
 
 
 /* SECTION STYLING */
